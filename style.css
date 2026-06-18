@@ -5,8 +5,9 @@ html {
     padding: 0;
     height: 100%;
     /* The Font Family- Really important!! */
-    font-family: Arial, sans-serif;
+    font-family: Trade Gothic Next Cond Bold;
     box-sizing: border-box;
+    background-color: #9751ff;
 }
 
 /* reset for images to ensure they ar 100% of the parent container width */
@@ -14,6 +15,9 @@ img {
     width: 100%;
 }
 
+h1 {
+
+}
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
     height: 25vh;
@@ -28,16 +32,16 @@ img {
 
 /* BIG text styling for the hero section text */
 .hero-text {
-    font-size: 4em;
+    font-size: 6em;
     font-weight: bold;
 }
 
 /* nice big font on a banner style background */
 .topic-title {
-    color: white;
+    color: #FA7E61;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: #6622CC;
 }
 
 /* Three column grid with a nice big gap */
@@ -53,11 +57,27 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card {
-    background-color: rgb(71, 71, 71);
+    background-color: #6622CC;
     color: white;
     padding: 1em;
     border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px #FA7E61
+    
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 /* Styling for the topic card titles */
@@ -78,7 +98,7 @@ img {
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer {
     background-color: rgb(71, 71, 71);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: right;
     padding: 3em 3em;
 }
@@ -86,23 +106,21 @@ img {
 
 
 /* Add styling for smaller devices here */
-@media (max-width: 1000px) {
+@media (max-width: 1000px)
 
     /* Changes display to block so elements show below each other */
     .topic-content {
         display: block;
-
-
     }
 
     /* Adds a gap between each topic card */
     .topic-card {
         margin-bottom: 20px;
-
     }
 
     /* Increase font size for smaller devices */
     .topic-summary {
-    font-size: 2em;
-}
-}
+        font-size: 2em;
+        .top
+    }
+    
